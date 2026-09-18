@@ -3,211 +3,189 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Majin Buu - Curriculum Vitae</title>
+<title>Majin Buu — Curriculum Vitae</title>
 <link rel="stylesheet" href="/css/styles.css">
+<link rel="icon" href="/img/favicon.png">
 </head>
+
 <body>
 
-<div class="pagina">
+<div id="curriculum">
 
-  <aside id="sidebar">
+  <aside id="sidebar" class="panel">
 
-    <div class="foto"></div>
-
-    <div class="bloque">
-      <h2>Datos personales</h2>
-      <div class="dato">
-        <p class="etiqueta">Ubicación</p>
-        <p class="valor">Planeta Tierra</p>
-      </div>
-      <div class="dato">
-        <p class="etiqueta">Especie</p>
-        <p class="valor">Majin</p>
-      </div>
-      <div class="dato">
-        <p class="etiqueta">Creación</p>
-        <p class="valor">Hace 5.000.000 de años</p>
-      </div>
-      <div class="dato">
-        <p class="etiqueta">Especialidad</p>
-        <p class="valor">Combate mágico y regeneración</p>
-      </div>
+    <div id="bloqueAvatar">
+      <div class="avatar"></div>
+      <h1 id="nombre">Majin Buu</h1>
+      <p id="trabajo">Ser mágico-Defensor de la Tierra</p>
     </div>
 
-    <div class="bloque">
-      <h2>Competencias</h2>
-      <div class="habilidad">
-        <p>Fuerza <span>5/5</span></p>
-        <div class="barra"><div class="relleno nivel-100"></div></div>
-      </div>
-      <div class="habilidad">
-        <p>Regeneración celular <span>5/5</span></p>
-        <div class="barra"><div class="relleno nivel-100"></div></div>
-      </div>
-      <div class="habilidad">
-        <p>Resistencia <span>5/5</span></p>
-        <div class="barra"><div class="relleno nivel-100"></div></div>
-      </div>
-      <div class="habilidad">
-        <p>Control de energía <span>4/5</span></p>
-        <div class="barra"><div class="relleno nivel-80"></div></div>
-      </div>
-      <div class="habilidad">
-        <p>Autocontrol <span>2/5</span></p>
-        <div class="barra"><div class="relleno nivel-40"></div></div>
-      </div>
-      <div class="habilidad">
-        <p>Trabajo en equipo <span>3/5</span></p>
-        <div class="barra"><div class="relleno nivel-60"></div></div>
-      </div>
-    </div>
+    <section class="sideCajas" id="datosPersonales">
+      <h2 class="titulo">Datos personales</h2>
+      <ul class="listaContacto">
+        <li class="infoContacto"><span class="tag">Ubicacion:</span> Planeta Tierra</li>
+        <li class="infoContacto"><span class="tag">Especie:</span> Majin</li>
+        <li class="infoContacto"><span class="tag">Creacion:</span> Hace 5.000.000 de años</li>
+        <li class="infoContacto"><span class="tag">Especialidad:</span> Combate mágico y regeneración</li>
+      </ul>
+    </section>
 
-    <div class="bloque">
-      <h2>Técnicas clave</h2>
-      <div class="etiquetas">
-        <span class="tag">Absorción</span>
-        <span class="tag">Regeneración instantánea</span>
-        <span class="tag">Rayo transformador</span>
-        <span class="tag">Bola de energía maligna</span>
-      </div>
-    </div>
+    <section class="sideCajas" id="skills">
+      <h2 class="titulo">Competencias</h2>
+      <ul class="listaNivel">
+        <li class="nivel"><span class="nombreNivel">Fuerza <span class="valorNivel">5/5</span></li>
+        <li class="nivel"><span class="nombreNivel">Regeneracion celular <span class="valorNivel">5/5</span></li>
+        <li class="nivel"><span class="nombreNivel">Resistencia <span class="valorNivel">5/5</span></li>
+        <li class="nivel"><span class="nombreNivel">Control de energia <span class="valorNivel">4/5</span></li>
+        <li class="nivel"><span class="nombreNivel">Autocontrol <span class="valorNivel">2/5</span></span></li>
+        <li class="nivel"><span class="nombreNivel">Trabajo en equipo <span class="valorNivel">3/5</span></span></li>
+      </ul>
+    </section>
 
-    <div class="bloque">
-      <h2>Idiomas</h2>
-      <div class="dato-linea">
-        <p>Idioma de la Tierra</p>
-        <span class="pill">Básico</span>
+    <section class="sideCajas">
+      <h2 class="titulo">Tecnicas clave</h2>
+      <div class="caja1">
+        <span class="habilidad">Absorcion</span>
+        <span class="habilidad">Regeneracion instantanea</span>
+        <span class="habilidad">Rayo transformador</span>
+        <span class="habilidad">Bola de energia maligna</span>
       </div>
-      <div class="dato-linea">
-        <p>Idioma Makai</p>
-        <span class="pill">Nativo</span>
-      </div>
-    </div>
+    </section>
 
-    <div class="cita">
+    <section class="sideCajas">
+      <h2 class="titulo">Idiomas</h2>
+      <ul class="listaIdiomas">
+        <li class="alinear"><span>Idioma de la Tierra</span><span class="negrita">Básico</span></li>
+        <li class="alinear"><span>Idioma Makai</span><span class="negrita">Nativo</span></li>
+      </ul>
+    </section>
+
+    <blockquote class="autor">
       <p>«¡Buu no le gusta hacer daño! ¡Buu solo quiere jugar y comer caramelos!»</p>
-      <p class="autor">- Majin Buu</p>
-    </div>
+      <p>— Majin Buu</p>
+    </blockquote>
 
   </aside>
 
-  <main id="contenido">
+  <main id="main">
 
-    <header id="cabecera">
-      <p class="subtitulo">Curriculum vitae - Ser mágico</p>
-      <h1>Majin <span>Buu</span></h1>
+    <header id="headerHeroe">
+      <p id="headerP">Curriculum vitae-Ser mágico</p>
+      <h1 id="nombreHeroe">Majin Buu</h1>
     </header>
 
-    <section class="perfil">
-      <h2>Perfil profesional</h2>
-      <h3>Defensor de la Tierra</h3>
-      <p>Ser mágico de fuerza y regeneración prácticamente ilimitadas. Capacidad de absorber
-      a otros guerreros para incorporar su poder y conocimientos. Tras un proceso de
-      reconversión, actualmente aplica su fuerza a la protección del planeta y mantiene
-      un carácter bondadoso pese a su enorme potencial destructivo.</p>
+    <section class="section">
+      <h2 class="cabecera">Perfil profesional</h2>
+      <h3 class="subtitulo">Defensor de la Tierra</h3>
+      <p id="descripcion">
+        Soy un ser mágico de fuerza y regeneración prácticamente ilimitado. Tengo la capacidad de absorber
+        a otros guerreros para incorporar su poder y conocimientos. Tras un proceso de
+        reconversión, actualmente aplico mi fuerza a la protección del planeta Tierra y mantengo
+        un carácter bondadoso pese a mi enorme potencial destructivo.
+      </p>
     </section>
 
-    <section class="bloque-grande">
-      <h2>Experiencia profesional</h2>
+    <section class="section">
+      <h2 class="cabecera">Experiencia profesional</h2>
 
-      <div class="trabajo">
-        <div class="trabajo-cabecera">
+      <article class="entrada">
+        <div class="entradaCabecera">
           <div>
-            <h3>Aliado de la Tierra</h3>
-            <p class="meta">Tierra - Actualidad</p>
+            <h3 class="entradaTitulo">Aliado de la Tierra</h3>
+            <p class="gps">Tierra - Actualidad</p>
           </div>
-          <span class="estado actual">Puesto actual</span>
+          <span class="estado activo">Puesto actual</span>
         </div>
-        <ul>
+        <ul class="listaExperiencia">
           <li>Colaboración con los Guerreros Z en amenazas de alto nivel.</li>
           <li>Convivencia pacífica junto a Mr. Satan.</li>
           <li>Participación en eventos de defensa planetaria.</li>
         </ul>
-      </div>
+      </article>
 
-      <div class="trabajo">
-        <div class="trabajo-cabecera">
+      <article class="entrada">
+        <div class="entradaCabecera">
           <div>
-            <h3>Amenaza planetaria</h3>
-            <p class="meta">Tierra - Saga de Majin Buu</p>
+            <h3 class="entradaTitulo">Amenaza planetaria</h3>
+            <p class="gps">Tierra - Saga de Majin Buu</p>
           </div>
-          <span class="estado exigente">Alta exigencia</span>
+          <span class="estado alta">Alta exigencia</span>
         </div>
-        <ul>
+        <ul class="listaExperiencia">
           <li>Destrucción y absorción de guerreros rivales.</li>
           <li>Múltiples transformaciones bajo presión extrema de combate.</li>
         </ul>
-      </div>
+      </article>
 
-      <div class="trabajo">
-        <div class="trabajo-cabecera">
+      <article class="entrada">
+        <div class="entradaCabecera">
           <div>
-            <h3>Competidor - Torneo del Poder</h3>
-            <p class="meta">Universo 7 - Edición única</p>
+            <h3 class="entradaTitulo">Competidor · Torneo del Poder</h3>
+            <p class="gps">Universo 7 - Edición única</p>
           </div>
-          <span class="campeon">Finalista</span>
+          <span class="estado final">Finalista</span>
         </div>
-        <ul>
+        <ul class="listaExperiencia">
           <li>Representación del Universo 7 junto a otros guerreros Z.</li>
           <li>Eliminación de varios competidores de universos rivales.</li>
         </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 class="cabecera">Formación</h2>
+      <div class="carta">
+        <div class="cajaCarta" id="bibidi">
+          <p class="numeroCarta">01</p>
+          <h3 class="tituloCarta">Bibidi</h3>
+          <p class="poder">Creación mágica</p>
+          <p class="textoCarta">Origen y magia ancestral.</p>
+        </div>
+        <div class="cajaCarta" id="bobbidi">
+          <p class="numeroCarta">02</p>
+          <h3 class="tituloCarta">Bobbidi</h3>
+          <p class="poder">Control y manipulación</p>
+          <p class="textoCarta">Dirección en combate.</p>
+        </div>
+        <div class="cajaCarta" id="mrsatan">
+          <p class="numeroCarta">03</p>
+          <h3 class="tituloCarta">Mr. Satan</h3>
+          <p class="poder">Reconversión</p>
+          <p class="textoCarta">Convivencia y autocontrol.</p>
+        </div>
+        <div class="cajaCarta" id="torneo">
+          <p class="numeroCarta">04</p>
+          <h3 class="tituloCarta">Torneo del Poder</h3>
+          <p class="poder">Formación competitiva</p>
+          <p class="textoCarta">Gestión del poder en equipo.</p>
+        </div>
       </div>
     </section>
 
-    <section class="bloque-grande">
-      <h2>Formación</h2>
-      <div class="grid-formacion">
-        <div class="tarjeta-formacion">
-          <p class="numero">01</p>
-          <h3>Bibidi</h3>
-          <p class="etapa">Creación mágica</p>
-          <p>Origen y magia ancestral</p>
-        </div>
-        <div class="tarjeta-formacion">
-          <p class="numero">02</p>
-          <h3>Bobbidi</h3>
-          <p class="etapa">Control y manipulación</p>
-          <p>Dirección en combate</p>
-        </div>
-        <div class="tarjeta-formacion">
-          <p class="numero">03</p>
-          <h3>Mr. Satan</h3>
-          <p class="etapa">Reconversión</p>
-          <p>Convivencia y autocontrol</p>
-        </div>
-        <div class="tarjeta-formacion">
-          <p class="numero">04</p>
-          <h3>Torneo del Poder</h3>
-          <p class="etapa">Formación competitiva</p>
-          <p>Gestión del poder en equipo</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="dos-columnas">
-      <div class="bloque-grande">
-        <h2>Logros destacados</h2>
-        <ul class="logros">
+    <section class="section columna">
+      <div>
+        <h2 class="cabecera">Logros destacados</h2>
+        <ul class="listaLogros">
           <li>Derrota final de Kid Buu.</li>
           <li>Reconversión hacia una vida pacífica en la Tierra.</li>
           <li>Participación decisiva en el Torneo del Poder.</li>
           <li>Control progresivo de sus impulsos destructivos.</li>
         </ul>
       </div>
-   <div class="bloque-grande">
-  <h2>Formas y transformaciones</h2>
-  <div class="grid-buu">
-    <span class="b1">Buu Gordo</span>
-    <span class="b2">Buu Malvado</span>
-    <span class="b3">Súper Buu</span>
-    <span class="b4">Kid Buu</span>
-  </div>
-</div>
+      <div>
+        <h2 class="cabecera">Formas y transformaciones</h2>
+        <div class="caja">
+          <p id="gordo">Buu Gordo</p>
+          <p id="malvado">Buu Malvado</p>
+          <p id="super">Súper Buu</p>
+          <p id="kid">Kid Buu</p>
+        </div>
+      </div>
     </section>
 
-    <section class="bloque-grande">
-      <h2>Enfrentamientos destacados</h2>
-      <table>
+    <section class="section">
+      <h2 class="cabecera">Enfrentamientos destacados</h2>
+      <table class="listaPeleas">
         <thead>
           <tr>
             <th>Rival</th>
@@ -216,21 +194,21 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Vegeta</td><td><span class="gana">Absorción</span></td><td>Saga de Majin Buu</td></tr>
-          <tr><td>Gohan (Mystic)</td><td><span class="gana">Absorción</span></td><td>Saga de Majin Buu</td></tr>
-          <tr><td>Vegito</td><td><span class="pierde">Derrota</span></td><td>Saga de Majin Buu</td></tr>
+          <tr><td>Vegeta</td><td><span class="ganador">Absorción</span></td><td>Saga de Majin Buu</td></tr>
+          <tr><td>Gohan (Mystic)</td><td><span class="ganador">Absorción</span></td><td>Saga de Majin Buu</td></tr>
+          <tr><td>Vegito</td><td><span class="perdedor">Derrota</span></td><td>Saga de Majin Buu</td></tr>
           <tr><td>Goku</td><td><span class="empate">Decisivo</span></td><td>Torneo del Poder</td></tr>
-          <tr><td>Kid Buu</td><td><span class="gana">Victoria</span></td><td>Saga de Majin Buu (final)</td></tr>
+          <tr><td>Kid Buu</td><td><span class="ganador">Victoria</span></td><td>Saga de Majin Buu (final)</td></tr>
         </tbody>
       </table>
     </section>
 
-    <footer id="pie">
-      <p>Majin Buu - CV digital - Práctica de Diseño de Interfaces Web</p>
-    </footer>
-
   </main>
 </div>
+
+<footer id="footer">
+  <p>CV digital Majin Buu - Gorka Maroto</p>
+</footer>
 
 </body>
 </html>
